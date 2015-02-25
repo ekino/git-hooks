@@ -23,7 +23,7 @@ Original Website: http://github.com/s0enke/git-hooks
 
 ## Usage
 
-Installation intructions:
+Installation instructions:
 
  * Put the script "pre-commit" into your .git/hooks directory 
  * OR: add the script to your pre-commit "chain" (you probably know what to do then)
