@@ -1,0 +1,5 @@
+# Here are several possible patterns
+
+COMMIT_MSG_REGEX="(feat|fix|test|doc|chore)(\((.*)\)): (.*)"  # Matches: feat(search): added ES connector
+
+#COMMIT_MSG_REGEX="(\[(ABC|DEF|GHI)\] )(feat|fix|test|doc|chore)(\((.*)\)): (.*)" # Matches: [ABC] feat(search): added ES connector

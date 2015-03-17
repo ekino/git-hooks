@@ -1,0 +1,21 @@
+#!/bin/bash
+# Regex commit-msg hook for git
+#
+# @author Hugo Briand <briand@ekino.com>
+#
+# see the README
+
+# parse config
+CONFIG_FILE=$(dirname $0)/config
+if [ -e $CONFIG_FILE ]; then
+    . $CONFIG_FILE
+fi
+
+
+MSG_FILE=${1}
+MSG=$(head -n 1 ${MSG_FILE})
+
+if [[ ! ${MSG} =~ $COMMIT_MSG_REGEX ]]; then
+    echo "Message ${MSG} does not match ${COMMIT_MSG_REGEX}"
+    exit 1
+fi
