@@ -31,4 +31,4 @@ Installation instructions:
    edit it to your requirements
  * Ensure that the script is executable. 
 
-You may use this hook with [Bladrak/Symfony2-coding-standard](https://github.com/Bladrak/Symfony2-coding-standard). You'll need to edit the ``PHPCS_CODING_STANDARD`` variable in the hook ``config`` file.
+You may use this hook with [ekino/Symfony2-coding-standard](https://github.com/ekino/Symfony2-coding-standard). You'll need to edit the ``PHPCS_CODING_STANDARD`` variable in the hook ``config`` file.
